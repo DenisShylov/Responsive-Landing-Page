@@ -1,0 +1,63 @@
+.headline {
+  margin-top: 90px;
+  padding: 0 80px;
+  &__title {
+    min-width: 480px;
+    min-height: 120px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 1px;
+    color: $text-color-dark;
+  }
+
+  &__subtitle {
+    min-width: 480px;
+    min-height: 80px;
+    font-size: 20px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: $text-color-dark;
+  }
+
+  &__button {
+    min-width: 300px;
+    min-height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $text-color-white;
+    text-shadow: 0px 10px 40px rgba(25, 104, 252, 0.2);
+    background: $text-color-blue;
+    box-shadow: 0px 10px 40px rgba(25, 104, 252, 0.3);
+    border: none;
+  }
+
+  &__logo {
+    min-width: 599px;
+    min-height: 502px;
+    margin: 80px 20px;
+  }
+}
+
+.section-bottom {
+  min-width: 640px;
+  min-height: 180px;
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/PleaseVisitDesktopSiteSectionBackground.png);
+  display: flex;
+
+  &__text {
+    margin: auto;
+    width: 520px;
+    height: 120px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $text-color-white;
+  }
+}

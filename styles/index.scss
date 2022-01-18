@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
+@import 'variables.scss';
+@import 'breakpoints.scss';
+@import 'header.scss';
+@import 'headline.scss';
+
+* {
+  font-family: Mulish, sans-serif;
+}
+
+@include for-large-up {
+  body {
+    background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson26/hw1/BackgroundDecor.png);
+  }
+}
