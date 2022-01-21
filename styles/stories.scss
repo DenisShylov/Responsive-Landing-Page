@@ -1,0 +1,29 @@
+.stories {
+  padding: 60px;
+  background-color: $background-color-stories;
+
+  &-title {
+    font-size: 30px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #11223f;
+  }
+
+  &-title-line {
+    width: 80px;
+    height: 2px;
+    background-color: $text-color-blue;
+    margin-top: 10px;
+  }
+
+  &__descriprion-box {
+    &-logo {
+      display: flex;
+      align-items: center;
+
+      & h1 {
+        margin-left: 20px;
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 .headline {
-  margin-top: 90px;
-  padding: 0 80px;
+  margin-top: 80px;
+  padding-left: 80px;
   &__title {
     min-width: 480px;
     min-height: 120px;
@@ -50,6 +50,8 @@
   display: flex;
 
   &__text {
+    display: flex;
+    align-items: center;
     margin: auto;
     width: 520px;
     height: 120px;
